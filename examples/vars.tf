@@ -24,6 +24,11 @@ variable "location" {
     default = null
 }
 
+variable "sku" {
+    type = string
+    default = "Basic" # or Standard
+}
+
 variable "private_ip_address" {
     type = string
     default = null
