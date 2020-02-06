@@ -1,0 +1,16 @@
+#  Local .terraform directories
+**/.terraform/*
+.terraform/
+terraform.tfvars
+mykey
+mykey.pub
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.tfstate.lock.info
+.DS_Store
+
+# Secret files
+**/secret/*.json
+#**/secret/*.tfvars
+**/*.tfplan
