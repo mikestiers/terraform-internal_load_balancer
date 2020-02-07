@@ -16,7 +16,7 @@ variable "client_secret" {
 
 variable "prefix" {
     type = string
-    default = null
+    default = "contoso"
 }
 
 variable "location" {
@@ -36,5 +36,10 @@ variable "private_ip_address" {
 
 variable "private_ip_address_allocation" {
     type = string
-    default = "Dynamic" # or Static
+    default = "Static" # or Dynamic
+}
+
+variable "subnet_id" {
+    type = string
+    default = null
 }

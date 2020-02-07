@@ -22,3 +22,8 @@ variable "private_ip_address_allocation" {
     type = string
     default = "Dynamic" # or Static
 }
+
+variable "subnet_id" {
+    type = string
+    default = null
+}
