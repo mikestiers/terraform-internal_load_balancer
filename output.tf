@@ -1,6 +1,13 @@
+output "ilb_resource_group_name" {
+    value = azurerm_lb.example.resource_group_name
+}
+
+output "ilb_location" {
+    value = azurerm_lb.example.location
+}
+
 output "ilb_name" {
   value = azurerm_lb.example.name
-  #value = var.location
 }
 
 output "ilb_frontend_ip_configuration_name" {

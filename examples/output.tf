@@ -1,6 +1,9 @@
+output "ilb_resource_group_name" {
+    value = module.ilb.ilb_resource_group_name
+}
+
 output "ilb_name" {
-  value = module.ilb.ilb_name
-  #value = var.location
+  value = module.ilb.ilb_location
 }
 
 output "ilb_frontend_ip_configuration_name" {
