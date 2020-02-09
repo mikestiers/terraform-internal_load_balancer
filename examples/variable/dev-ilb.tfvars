@@ -1,5 +1,2 @@
 location                      = "eastus"
 prefix                        = "contoso"
-private_ip_address            = "10.0.1.6"
-private_ip_address_allocation = "Dynamic"
-subnet_id                     = "/subscriptions/3d13f565-2dab-4443-a3cd-a600bb48ce1c/resourceGroups/contoso/providers/Microsoft.Network/virtualNetworks/contoso/subnets/default"

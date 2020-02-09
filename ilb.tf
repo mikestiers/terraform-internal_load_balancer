@@ -5,9 +5,9 @@ resource "azurerm_lb" "example" {
 
   frontend_ip_configuration {
     name                          = "PrivateIPAddress"
-    subnet_id                     = var.subnet_id
-    private_ip_address            = var.private_ip_address
-    private_ip_address_allocation = var.private_ip_address_allocation
+    subnet_id                     = "/subscriptions/3d13f565-2dab-4443-a3cd-a600bb48ce1c/resourceGroups/contoso/providers/Microsoft.Network/virtualNetworks/contoso/subnets/default"
+    private_ip_address            = "10.1.0.6"
+    private_ip_address_allocation = "Static"
   }
 }
 
